@@ -30,3 +30,21 @@ h1{
     color: white;
 }
 
+.beach-vdo {
+    width: 90%;
+    height: 600px;
+    border-radius: 100%;
+    margin-top: 50px;
+    position: relative;
+    bottom: 50%;
+    object-fit: cover; /* Ensures video scales properly */
+   
+}
+
+.img img{
+    border-radius: 20px;
+}
+
+
+
+
