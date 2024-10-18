@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Noto+Serif+Oriya:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.body{
+.body {
     background-color: #155263;
 }
 
-h1{
+h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    
+
 }
 
-.desc{
+.col a{
+    text-decoration: none;
+}
+
+.desc {
     font-family: "Noto Serif Oriya", serif;
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
 }
 
-.box1{
+.box1 {
     height: 50px;
     width: 150px;
     background-color: #c66912;
@@ -38,63 +42,67 @@ h1{
     position: absolute;
     top: 100%;
     right: 6%;
-    object-fit: cover; 
-   
+    object-fit: cover;
+
 }
 
-.img img{
+.img img {
     border-radius: 20px;
 }
 
-.heading{
+.heading {
     font-family: "Noto Serif Oriya", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 120px;
 }
-.p1{
+
+.p1 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: x-large;
 }
-.wonder-img img{
+
+.wonder-img img {
     width: 350px;
     height: 350px;
-    
+
 }
 
-.heading2{
+.heading2 {
     font-family: "Noto Serif Oriya", serif;
     font-weight: 700;
     font-style: normal;
-   
+
     font-size: 70px;
 }
 
-.p2{
+.p2 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: large;
 }
 
-.custom-card{
-    background-color:#f9b577 !important;
-    border-radius: 0 !important; /*useed !important because bootstrap overriding styles*/
+.custom-card {
+    background-color: #f9b577 !important;
+    border-radius: 0 !important;
+    /*useed !important because bootstrap overriding styles*/
 }
 
-.heading-3{
+.heading-3 {
     position: relative;
     margin-top: 90%;
 }
 
-.p3{
+.p3 {
     position: relative;
     margin-top: 90%;
 }
-.beach-01{
-   
+
+.beach-01 {
+
     position: relative;
     left: 20%;
 }
@@ -103,8 +111,5 @@ hr {
     border: 1px solid white;
     height: 2px;
     color: #FFF;
-    background-color: #FFF; 
-  }
-
-
-
+    background-color: #FFF;
+}
