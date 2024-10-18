@@ -39,9 +39,9 @@ h1 {
     height: 600px;
     border-radius: 100%;
     margin-top: 4%;
-    position: absolute;
-    top: 100%;
-    right: 6%;
+    position: relative;
+    bottom: 53%;
+    
     object-fit: cover;
 
 }
