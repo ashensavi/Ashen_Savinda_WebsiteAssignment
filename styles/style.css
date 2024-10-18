@@ -79,5 +79,11 @@ h1{
     font-size: large;
 }
 
+.custom-card{
+    background-color:#f9b577 !important;
+    border-radius: 0 !important; /*useed !important because bootstrap overriding styles*/
+}
+
+
 
 
