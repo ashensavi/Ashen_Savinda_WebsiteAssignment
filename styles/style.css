@@ -31,13 +31,14 @@ h1{
 }
 
 .beach-vdo {
-    width: 90%;
+    width: 85%;
     height: 600px;
     border-radius: 100%;
     margin-top: 50px;
-    position: relative;
-    bottom: 50%;
-    object-fit: cover; /* Ensures video scales properly */
+    position: absolute;
+    top: 100%;
+    right: 6%;
+    object-fit: cover; 
    
 }
 
@@ -45,6 +46,38 @@ h1{
     border-radius: 20px;
 }
 
+.heading{
+    font-family: "Noto Serif Oriya", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+}
+.p1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-large;
+}
+.wonder-img img{
+    width: 350px;
+    height: 350px;
+    
+}
+
+.heading2{
+    font-family: "Noto Serif Oriya", serif;
+    font-weight: 700;
+    font-style: normal;
+   
+    font-size: 70px;
+}
+
+.p2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+}
 
 
 
