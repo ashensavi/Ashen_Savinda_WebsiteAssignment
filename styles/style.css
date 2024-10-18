@@ -99,6 +99,12 @@ h1{
     left: 20%;
 }
 
+hr {
+    border: 1px solid white;
+    height: 2px;
+    color: #FFF;
+    background-color: #FFF; 
+  }
 
 
 
